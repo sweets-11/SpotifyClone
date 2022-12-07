@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat+Alternates:ital,wght@0,500;1,400&family=Secular+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  font-family: "Abel", sans-serif;
+}
+
+.brand img {
+  width: 40px;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  height: 60px;
+  background-color: black;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.container {
+  min-height: 63.2vh;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  margin: 23px auto 110px auto;
+  width: 80%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("images/bgg.jpg");
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 5px;
+  color: black;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+  width: 37rem;
+}
+
+.songItem img {
+  width: 55px;
+  margin: 0 23px;
+  border-radius: 100%;
+}
+
+.timestamp {
+  display: flex;
+  align-items: center;
+  margin: 0 23px;
+}
+
+.timestamp i {
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 40px;
+}
+
+.songInfo {
+  position: absolute;
+  font-family: "Montserrat Alternates", sans-serif;
+  left: 10vw;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
